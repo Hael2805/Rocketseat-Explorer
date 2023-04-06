@@ -21,6 +21,8 @@ body, p, a { font-family: 'Open Sans', sans-serif; }
 
 span, a { color: #FF9900 } 
 
+a:hover { opacity: 0.5}
+
 p, #footer { color:#7D7987; 
              font-size: 14px; 
              line-height: 28px; }

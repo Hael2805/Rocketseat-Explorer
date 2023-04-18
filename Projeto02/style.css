@@ -12,7 +12,7 @@ body { margin: 0px;
         margin: 0px auto;
         padding-top: 65px; }
 
-ul { display:flex;
+ul { display: flex;
      gap: 48px;
      list-style: none;
      margin: 0;
@@ -65,11 +65,11 @@ button:hover { background: #1d7a5a; }
 
 footer { font-size: 14px;
          line-height: 28px; 
-         text-align:center;
+         text-align: center;
          margin-top: 80px; }
 
 footer a { font-weight: bold; }
 
-#balls { position:fixed;
+#balls { position: fixed;
          bottom: 0;
          right: 0; }

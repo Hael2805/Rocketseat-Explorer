@@ -5,7 +5,8 @@ nav { display: flex;
 
 body { margin: 0px; 
        font-family: 'Open Sans', sans-serif;
-       background: linear-gradient(180deg, rgba(227, 255, 248, 0)82.08%, rgba(227, 255, 248, 0.38) 100%);
+       background: linear-gradient(180deg, rgba(227, 255, 248, 0)82.08%, 
+                   rgba(227, 255, 248, 0.38) 100%);
        min-height: 100%vh;  }
 
 .page { width: 1000px;

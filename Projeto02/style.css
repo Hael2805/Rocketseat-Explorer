@@ -62,15 +62,15 @@ button { color: #F9F9F9;
          border-radius: 4px;
          cursor: pointer; }
 
-button:hover { background: #1d7a5a; }
+button:hover {background: #1d7a5a;}
 
-footer { font-size: 14px;
-         line-height: 28px; 
-         text-align: center;
-         margin-top: 80px; }
+footer {font-size: 14px;
+        line-height: 28px; 
+        text-align: center;
+        margin-top: 80px;}
 
-footer a { font-weight: bold; }
+footer a {font-weight: bold;}
 
-#balls { position: fixed;
-         bottom: 0;
-         right: 0; }
+#balls {position: fixed;
+        bottom: 0;
+        right: 0;}

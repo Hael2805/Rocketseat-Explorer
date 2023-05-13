@@ -27,7 +27,7 @@ p, #footer {color:#7D7987;
             font-size: 14px; 
             line-height: 28px;}
 
-#footer a + a {margin-left: 28px;}
+#footer a + a { margin-left: 28px; }
 
 .line {width: 568px; 
        height: 0px; 

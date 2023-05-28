@@ -23,9 +23,11 @@ body::before { content: '';
 header { width: 319px; }
 
 header h1 { font-family: 'Archivo', sans-serif;
+    
             font-weight: bold;
             font-size: 36px;
             line-height: 42px; 
+    
             color: #FFFFFF;
        
             margin-bottom: 24px;}

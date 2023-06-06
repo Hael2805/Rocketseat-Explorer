@@ -64,16 +64,14 @@ ul li span { font-weight: 800;
 
              color: #090039; }
 
-@media ( min-width: 700px ) { 
-    body { padding: 8rem; }
+@media ( min-width: 700px ) { body { padding: 8rem; }
+    
+                              main { max-width: 1020px;
+                                     display: flex;
+                                     gap: 10rem; }
 
-    main { max-width: 1020px;
-           display: flex;
-           gap: 10rem; }
+                              main > div { max-width: 484px; }
 
-    main > div { max-width: 484px; }
-
-    ul li { gap: 5.3rem;
-            max-width: 450px; 
-            align-items: center;  }
- }
+                              ul li { gap: 5.3rem;
+                                      max-width: 450px; 
+                                      align-items: center;  } }

@@ -17,18 +17,17 @@ main { max-width: 33.0rem;
 
 h1 { font-weight: 800;
      font-size: 4.0rem;
+    
      line-height: 4.8rem;
     
-     color: #090039; 
-    
+     color: #090039;  
      margin-bottom: 1.5rem; }
 
 main p:first-child { color: #7158EF;  
                      letter-spacing: 3px;
-
                      text-transform: uppercase;
-                     line-height: 3.2rem; 
-                    
+    
+                     line-height: 3.2rem;
                      margin-bottom: 1.7rem; }
 
 h1 + p { color: rgba(10, 0, 57, 0.64); 

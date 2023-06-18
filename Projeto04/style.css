@@ -38,9 +38,9 @@ h1 + p { color: rgba(10, 0, 57, 0.64);
 a { color:#090039;
     text-decoration: none; }
 
-a:hover { font-weight: bold; }
+a:hover {font-weight: bold;}
 
-ul { margin-top: 7.2rem; }
+ul {margin-top: 7.2rem;}
 
 ul li { font-weight: 700;
         font-size: 2.4rem;;
@@ -52,7 +52,7 @@ ul li { font-weight: 700;
         display: flex;
         gap: 3.8rem; }
 
-ul li + li { margin-top: 3.2rem; }
+ul li + li {margin-top: 3.2rem;}
 
 ul li span { font-weight: 800;
              font-size: 7.2rem;

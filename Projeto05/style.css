@@ -58,7 +58,6 @@ header p { color: var(--fc-secondary);
         
            line-height: 3.2rem;
            letter-spacing: 3px; 
-
            font-weight: 400;
 
            margin-bottom: 1.7rem; }
@@ -80,7 +79,6 @@ main { display: grid;
             object-fit: cover; 
 
             filter: brightness(0.5);
-
             border-radius: 6px; 
             
             transition: all 200ms; }

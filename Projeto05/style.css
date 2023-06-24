@@ -8,6 +8,7 @@
         --hue: 250;
         --bg-primary: hsl(var(--hue), 22%, 20%);
         --fc-primary: hsl(var(--hue), 0%, 100%);
+       
         --fc-secondary: hsl(var(--hue), 50%, 80%); 
         --fc-secondary-dark: hsl(var(--hue), 100%, 11%, 1);
         
@@ -25,6 +26,7 @@ body { font-family: var(--ff-texting);
 
 .page { max-width: clamp(33rem, 30rem +60vw, 117rem);
         padding: 2rem;
+       
         margin: 0 auto; }
         
 @media ( min-width: 700px) { 

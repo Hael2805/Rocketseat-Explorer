@@ -8,6 +8,7 @@
         --hue: 250;
         --bg-primary: hsl(var(--hue), 22%, 20%);
         --fc-primary: hsl(var(--hue), 0%, 100%);
+       
         --fc-secondary: hsl(var(--hue), 50%, 80%); 
         --fc-secondary-dark: hsl(var(--hue), 100%, 11%, 1);
         
@@ -25,6 +26,7 @@ body { font-family: var(--ff-texting);
 
 .page { max-width: clamp(33rem, 30rem +60vw, 117rem);
         padding: 2rem;
+       
         margin: 0 auto; }
         
 @media ( min-width: 700px) { 
@@ -36,11 +38,8 @@ body { font-family: var(--ff-texting);
         "C C D"; } 
 
     main div:nth-child(1) { grid-area: A; }
-
     main div:nth-child(2) { grid-area: B; }
-
     main div:nth-child(3) { grid-area: C; }
-
     main div:nth-child(4) { grid-area: D; } }
 
 
@@ -58,7 +57,6 @@ header p { color: var(--fc-secondary);
         
            line-height: 3.2rem;
            letter-spacing: 3px; 
-
            font-weight: 400;
 
            margin-bottom: 1.7rem; }
@@ -80,7 +78,6 @@ main { display: grid;
             object-fit: cover; 
 
             filter: brightness(0.5);
-
             border-radius: 6px; 
             
             transition: all 200ms; }

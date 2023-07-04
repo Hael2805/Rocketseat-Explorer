@@ -43,8 +43,8 @@ body { font-family: var(--ff-texting);
     main div:nth-child(4) { grid-area: D; } }
 
 
-img { width: 100%;
-      height: auto; }
+   img { width: 100%;
+         height: auto; }
 
 header { margin: 10rem 0 8rem;
          font-family: var(--ff-heading);

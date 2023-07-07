@@ -25,15 +25,15 @@ body { font-family: var(--ff-texting);
        font-size: var(--fs-body); }
 
 .page { max-width: clamp(33rem, 30rem +60vw, 117rem);
-    
         padding: 2rem;
         margin: 0 auto; }
         
 @media ( min-width: 700px) { 
+    
     main { grid-template-columns: 1fr 1fr; } }
 
-
 @media (min-width: 938px) {     
+    
     main { grid-template-areas: "A B B" 
         "C C D"; } 
 

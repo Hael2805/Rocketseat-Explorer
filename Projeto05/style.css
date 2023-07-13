@@ -21,6 +21,7 @@
 
 body { font-family: var(--ff-texting); 
        background-color: var(--bg-primary);
+      
        color: var(--fc-primary); 
        font-size: var(--fs-body); }
 
@@ -57,7 +58,6 @@ header p { color: var(--fc-secondary);
            line-height: 3.2rem;
            letter-spacing: 3px; 
            font-weight: 400;
-
            margin-bottom: 1.7rem; }
 
 header h1 { font-weight: 800;

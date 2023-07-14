@@ -10,6 +10,7 @@ body {font-family: 'Open Sans', sans-serif;
 
 h1 {font-family: 'Inter', sans-serif; 
     font-size: 49px; 
+    
     line-height: 56px;
     font-weight: normal;}
 
@@ -24,6 +25,7 @@ span, a {color: #FF9900;}
 a:hover {opacity: 0.5;}
 
 p, #footer {color:#7D7987; 
+            
             font-size: 14px; 
             line-height: 28px;}
 
@@ -31,6 +33,7 @@ p, #footer {color:#7D7987;
 
 .line {width: 568px; 
        height: 0px; 
+       
        margin: 0 auto 8px;
        border: 1px #ECEFF2 solid;}
 

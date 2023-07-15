@@ -57,6 +57,7 @@ header p { color: var(--fc-secondary);
         
            line-height: 3.2rem;
            letter-spacing: 3px; 
+          
            font-weight: 400;
            margin-bottom: 1.7rem; }
 
@@ -66,7 +67,6 @@ header h1 { font-weight: 800;
 
 main { display: grid;
        gap: 3.2rem;
-    
        padding-bottom: 10rem;
        animation: downtop 700ms 350ms backwards; }
 
@@ -112,6 +112,7 @@ main { display: grid;
 
 @keyframes topdown { 0% { opacity: 0;
                           transform: translateY(-15px); }
+                    
                      100% { opacity: 1;
                             transform: translateY(0); } }
 

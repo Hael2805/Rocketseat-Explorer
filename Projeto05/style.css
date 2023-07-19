@@ -30,11 +30,9 @@ body { font-family: var(--ff-texting);
         margin: 0 auto; }
         
 @media ( min-width: 700px) { 
-    
     main { grid-template-columns: 1fr 1fr; } }
 
 @media (min-width: 938px) {     
-    
     main { grid-template-areas: "A B B" 
         "C C D"; } 
 
@@ -48,13 +46,12 @@ body { font-family: var(--ff-texting);
 
 header { margin: 10rem 0 8rem;
          font-family: var(--ff-heading);
-        
          text-align: center;
          animation: topdown 700ms; } 
 
 header p { color: var(--fc-secondary);
            text-transform: uppercase; 
-        
+    
            line-height: 3.2rem;
            letter-spacing: 3px; 
           
@@ -67,6 +64,7 @@ header h1 { font-weight: 800;
 
 main { display: grid;
        gap: 3.2rem;
+      
        padding-bottom: 10rem;
        animation: downtop 700ms 350ms backwards; }
 
@@ -97,13 +95,11 @@ main { display: grid;
 
 .card h2 span { border-radius: 2rem;
                 background-color: var(--fc-primary);
-
                 font-size: var(--fs-body);
                 font-weight: 400;
 
                 color: var(--fc-secondary-dark);
                 padding: 0 1.6rem;
-
                 width: fit-content;
                 height: 3.8rem;
                 
@@ -112,7 +108,6 @@ main { display: grid;
 
 @keyframes topdown { 0% { opacity: 0;
                           transform: translateY(-15px); }
-                    
                      100% { opacity: 1;
                             transform: translateY(0); } }
 

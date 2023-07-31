@@ -19,13 +19,13 @@
         --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
         --fs-heading-sm: clamp(3rem, 0.5rem + 3vw, 4rem); }
 
-body { font-family: var(--ff-texting); 
-       background-color: var(--bg-primary);
+body { font-family:var(--ff-texting); 
+       background-color:var(--bg-primary);
       
-       color: var(--fc-primary); 
-       font-size: var(--fs-body); }
+       color:var(--fc-primary); 
+       font-size:var(--fs-body); }
 
-.page { max-width: clamp(33rem, 30rem +60vw, 117rem);
+.page { max-width:clamp(33rem, 30rem +60vw, 117rem);
         padding: 2rem;
         margin: 0 auto; }
         
@@ -58,9 +58,9 @@ header p { color: var(--fc-secondary);
            font-weight: 400;
            margin-bottom: 1.7rem; }
 
-header h1 { font-weight: 800;
-            font-size: var(--fs-heading); 
-            line-height: 4.8rem; }
+header h1 { font-weight:800;
+            font-size:var(--fs-heading); 
+            line-height:4.8rem; }
 
 main { display: grid;
        gap: 3.2rem;
@@ -74,8 +74,8 @@ main { display: grid;
 .card img { height: 41.6rem;
             object-fit: cover; 
 
-            filter: brightness(0.5);
-            border-radius: 6px; 
+            filter:brightness(0.5);
+            border-radius:6px; 
             
             transition: all 200ms; }
 

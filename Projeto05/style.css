@@ -46,6 +46,7 @@ body { font-family:var(--ff-texting);
 
 header { margin: 10rem 0 8rem;
          font-family: var(--ff-heading);
+        
          text-align: center;
          animation: topdown 700ms; } 
 
@@ -69,6 +70,7 @@ main { display: grid;
        animation: downtop 700ms 350ms backwards; }
 
 .card { position: relative; 
+       
         font-family: var(--ff-heading); }
 
 .card img { height: 41.6rem;
@@ -96,7 +98,7 @@ main { display: grid;
 .card h2 span { border-radius: 2rem;
                 background-color: var(--fc-primary);
                 font-size: var(--fs-body);
-                font-weight: 400;
+                font-weight: 300;
 
                 color: var(--fc-secondary-dark);
                 padding: 0 1.6rem;

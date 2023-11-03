@@ -30,8 +30,8 @@ main p:first-child { color: #7158EF;
                      margin-bottom: 1.7rem; }
 
 h1 + p { color: rgba(10, 0, 57, 0.64); 
+        
          line-height: 3.2rem;
-
          margin-bottom: 3.2rem; }
 
 a { color:#090039;
@@ -58,6 +58,7 @@ ul li span { font-weight: 800;
 
              line-height: 8.0rem;
              letter-spacing: -2px;
+            
              color: #090039; }
 
 @media ( min-width: 700px ) { body { padding: 8rem; }

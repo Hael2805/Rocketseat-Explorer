@@ -4,11 +4,10 @@
 
 ul { list-style: none; }
 
-:root { font-size: 62.5%; }
+:root { font-size: 62.4%; }
 
 body { font-family: 'Epilogue';   
        background: #ECE9FD; 
-    
        padding: 6.0rem 2.3rem 6.6rem;
        font-size: 1.6rem; }
 
@@ -31,8 +30,8 @@ main p:first-child { color: #7158EF;
                      margin-bottom: 1.7rem; }
 
 h1 + p { color: rgba(10, 0, 57, 0.64); 
+        
          line-height: 3.2rem;
-
          margin-bottom: 3.2rem; }
 
 a { color:#090039;
@@ -45,8 +44,8 @@ ul {margin-top: 7.2rem;}
 ul li { font-weight: 700;
         font-size: 2.4rem;;
         line-height: 3.3rem;
+       
         color: #090039;
-        
         max-width: 25.7rem;
 
         display: flex;
@@ -59,7 +58,7 @@ ul li span { font-weight: 800;
 
              line-height: 8.0rem;
              letter-spacing: -2px;
-
+            
              color: #090039; }
 
 @media ( min-width: 700px ) { body { padding: 8rem; }

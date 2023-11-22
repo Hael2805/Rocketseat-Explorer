@@ -6,6 +6,7 @@
         --ff-texting: 'Open sans', sans-serif; 
 
         --hue: 250;
+       
         --bg-primary: hsl(var(--hue), 22%, 20%);
         --fc-primary: hsl(var(--hue), 0%, 100%);
        
@@ -13,25 +14,23 @@
         --fc-secondary-dark: hsl(var(--hue), 100%, 11%, 1);
         
         font-size: 62.5%; 
+       
         --fs-body: 1.6rem; 
         --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
         --fs-heading-sm: clamp(3rem, 0.5rem + 3vw, 4rem); }
 
-body { font-family: var(--ff-texting); 
-       
-       background-color: var(--bg-primary);
-       color: var(--fc-primary); 
-    
-       font-size: var(--fs-body); }
+body { font-family:var(--ff-texting); 
+       background-color:var(--bg-primary);
+      
+       color:var(--fc-primary); 
+       font-size:var(--fs-body); }
 
-.page { max-width: clamp(33rem, 30rem +60vw, 117rem);
-    
+.page { max-width:clamp(33rem, 30rem +60vw, 117rem);
         padding: 2rem;
         margin: 0 auto; }
         
 @media ( min-width: 700px) { 
     main { grid-template-columns: 1fr 1fr; } }
-
 
 @media (min-width: 938px) {     
     main { grid-template-areas: "A B B" 
@@ -42,9 +41,8 @@ body { font-family: var(--ff-texting);
     main div:nth-child(3) { grid-area: C; }
     main div:nth-child(4) { grid-area: D; } }
 
-
-img { width: 100%;
-      height: auto; }
+   img { width: 100%;
+         height: auto; }
 
 header { margin: 10rem 0 8rem;
          font-family: var(--ff-heading);
@@ -54,31 +52,32 @@ header { margin: 10rem 0 8rem;
 
 header p { color: var(--fc-secondary);
            text-transform: uppercase; 
-        
+    
            line-height: 3.2rem;
            letter-spacing: 3px; 
+          
            font-weight: 400;
-
            margin-bottom: 1.7rem; }
 
-header h1 { font-weight: 800;
-            font-size: var(--fs-heading); 
-            line-height: 4.8rem; }
+header h1 { font-weight:800;
+            font-size:var(--fs-heading); 
+            line-height:4.8rem; }
 
 main { display: grid;
        gap: 3.2rem;
-    
+      
        padding-bottom: 10rem;
        animation: downtop 700ms 350ms backwards; }
 
 .card { position: relative; 
+       
         font-family: var(--ff-heading); }
 
 .card img { height: 41.6rem;
             object-fit: cover; 
 
-            filter: brightness(0.5);
-            border-radius: 6px; 
+            filter:brightness(0.5);
+            border-radius:6px; 
             
             transition: all 200ms; }
 
@@ -98,13 +97,11 @@ main { display: grid;
 
 .card h2 span { border-radius: 2rem;
                 background-color: var(--fc-primary);
-
                 font-size: var(--fs-body);
-                font-weight: 400;
+                font-weight: 300;
 
                 color: var(--fc-secondary-dark);
                 padding: 0 1.6rem;
-
                 width: fit-content;
                 height: 3.8rem;
                 
@@ -113,12 +110,10 @@ main { display: grid;
 
 @keyframes topdown { 0% { opacity: 0;
                           transform: translateY(-15px); }
-
                      100% { opacity: 1;
                             transform: translateY(0); } }
 
 @keyframes downtop { 0% { opacity: 0;
                           transform: translateY(-15px); }
-                        
                      100% { opacity: 1; 
                             transform: translateY(0); } }

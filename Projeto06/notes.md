@@ -9,7 +9,7 @@
  * Criado pelo navegador (browser) 
   - É uma interface (API) usada no navegador  
 
-- - -  JS -> DOM <- HTML - - - 
+- -  JS -> DOM <- HTML - - 
 
 # Pra que serve:
 

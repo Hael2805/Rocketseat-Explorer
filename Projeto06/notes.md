@@ -1,4 +1,4 @@
-# DOM:
+# DOM
  
  * Document Object Model 
   - Modelagem do documento como objetivo JavaScript

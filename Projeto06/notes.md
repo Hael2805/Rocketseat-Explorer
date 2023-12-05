@@ -1,4 +1,4 @@
-# DOM 
+# DOM
  
  * Document Object Model 
   - Modelagem do documento como objetivo JavaScript
@@ -9,7 +9,7 @@
  * Criado pelo navegador (browser) 
   - É uma interface (API) usada no navegador  
 
-- - -  JS -> DOM <- HTML - - - 
+- -  JS -> DOM <- HTML - - 
 
 # Pra que serve:
 

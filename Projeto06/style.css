@@ -25,12 +25,12 @@ main { background: #FFF;
 body, button, input { font-family: 'DM Sans', sans-serif; } 
 
 button { background-color: #7879F1; 
-       color: white; 
-       font-weight: bold; 
-       border-radius: 0 .4rem .4rem 0; 
-       cursor: pointer; 
+        color: white; 
+        font-weight: bold; 
+        border-radius: 0 .4rem .4rem 0; 
+        cursor: pointer; 
 
-       transition: background .3s; }  
+        transition: background .3s; }  
 
 button:hover { background-color: #9a9ae2; } 
 

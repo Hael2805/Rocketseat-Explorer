@@ -4,7 +4,7 @@
  * Separar código em diversos arquivos 
  * Isolar escopo e código 
 
-# Preparando o ambiente para usar ES Modules 
+# Preparando o ambiente para usar ES Modules:
  * Numa nova pasta, vamos criar os arquivos:
   - index.html, main.js, utils.js 
 

@@ -8,7 +8,7 @@
  * Numa nova pasta, vamos criar os arquivos:
   - index.html, main.js, utils.js 
 
- * Prepare o index.hml
+ * Prepare o index.hml:
   - Crie a estrutura e adicione o main.js com a tag <script> 
 
  * Habilite a tag script para utilizar a sintaxe 

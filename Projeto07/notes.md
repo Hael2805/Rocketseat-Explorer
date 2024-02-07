@@ -11,7 +11,7 @@
  * Prepare o index.hml:
   - Crie a estrutura e adicione o main.js com a tag <script> 
 
- * Habilite a tag script para utilizar a sintaxe 
+ * Habilite a tag script para utilizar a sintaxe -
   - Adicionaremos o atributo type="module" à tag script 
  // para usar, precisamos adicionar o atributo 
  // type="module" no nosso script principal 

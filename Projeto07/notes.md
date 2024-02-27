@@ -1,17 +1,17 @@
-# ES Modules:
+# ES Modules
  * Sintaxe que entrou no JS no EcmaScript 6 (ES6) 
  * Disponibilizar qualquer tipo de dado entre arquivos 
  * Separar código em diversos arquivos 
  * Isolar escopo e código 
 
-# Preparando o ambiente para usar ES Modules 
+# Preparando o ambiente para usar ES Modules:
  * Numa nova pasta, vamos criar os arquivos:
   - index.html, main.js, utils.js 
 
- * Prepare o index.hml
+ * Prepare o index.hml:
   - Crie a estrutura e adicione o main.js com a tag <script> 
 
- * Habilite a tag script para utilizar a sintaxe 
+ * Habilite a tag script para utilizar a sintaxe -
   - Adicionaremos o atributo type="module" à tag script 
  // para usar, precisamos adicionar o atributo 
  // type="module" no nosso script principal 

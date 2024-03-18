@@ -1,4 +1,4 @@
-# ES Modules:
+# ES Modules
  * Sintaxe que entrou no JS no EcmaScript 6 (ES6) 
  * Disponibilizar qualquer tipo de dado entre arquivos 
  * Separar código em diversos arquivos 
